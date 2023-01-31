@@ -1,0 +1,29 @@
+
+.cali {
+    max-width: 700px;
+    height: 500px;
+   
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    align-content: center;
+    background-color: palevioletred;
+    margin: 100px 100px 100px 50px;
+    width: 300px;
+    
+  }
+.mult{
+    width: 60px;
+    height: 30px;
+    background-color: aquamarine;
+    align-content: space-between;
+    margin-bottom: 10px;
+
+    
+}
+
+.result{
+    width: 80px;
+    height: 25px;
+}

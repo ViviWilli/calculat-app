@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,149 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+ 
+
+.todo-app{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+  min-height: 600px;
+  background-color: #fff;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  box-shadow: 0 2px 6px #555;
+}
+
+.important-btn {
+  margin-right: 5px;
+  width: 20px;
+  border-width: 1px;
+  border-radius: 49%;
+  padding: 1px;
+  border-color: white;
+  color: white;
+  background: transparent;
+}
+
+h1 {
+  margin: 32px 0;
+  font-size: 33px;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+.todo-form {
+  margin-bottom: 32px;
+  background: #fff;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid rgb(240, 150, 199);
+  outline: none;
+  width: 95px;
+  margin-left: 10px;
+}
+
+.do-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid rgb(240, 150, 199);
+  outline: none;
+  width: 320px;
+  margin-left: 10px;
+}
+
+.todo-button {
+  
+  padding: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgb(233, 107, 222) 0%,
+    rgb(240, 24, 150) 100%
+  );
+  color: rgb(247, 241, 241);
+  text-transform: capitalize;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 20, 98) 0%,
+    rgb(255, 17, 196) 100%
+  );
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.seperator {
+  height: 1px;
+  width: 80%;
+  align-self: center;
+  background-color: black;
+}
+
+ul li{
+  list-style: none;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+ul li .active{
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+ul li button:disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+label{
+  cursor: pointer;
+}
+
+.todo-row #delete{
+  background: crimson;
+}
+
+h2{
+  text-align: center;
+  color: green;
 }
